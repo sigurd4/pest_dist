@@ -1,0 +1,18 @@
+[package]
+name = "pest_dist"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num = "0.4.0"
+array-init = "2.0.1"
+vst = "0.3.0"
+libm = "0.2.6"
+real_time_fir_iir_filters = "0.5.0"
+fastapprox = "0.3.0"
+
+[lib]
+name = "pest_dist"
+crate-type = ["cdylib"]
